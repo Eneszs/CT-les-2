@@ -3,3 +3,18 @@ body {
 background-color: blanchedalmond;
 
 }
+
+#container
+
+{
+background-color: burlywood;
+width: 1024px;
+margin: 0 auto;
+
+}
+
+#menu
+{
+background-color: lightgray;
+
+}
