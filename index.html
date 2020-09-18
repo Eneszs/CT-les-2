@@ -12,7 +12,6 @@
 
 </head>
 
-
 <body>
 
 
@@ -28,3 +27,185 @@
   <script src="js/scripts.js"></script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: darkblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 425px; /* only for demonstration, should be removed */
+  background: #f1f1f1;
+;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 425px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: darkblue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <html>
+    <head>
+    <style>
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+    </style>
+    </head>
+    
+    
+    
+<header>
+  <body>
+   
+    <h2>Vergelijk en vindt het best bijpassende smartphone voor uw zelf!</h2>
+    
+    
+    </body>
+</header>
+
+<section>
+  <nav>
+   
+    <ul>
+      <head>
+        <style>
+        img {
+          border: 7px solid darkblue;
+        }
+        </style>
+        </head>
+        <br>
+        <br>
+        <center> <img src="images/s20.png" alt="Samsung galaxy s20 ultra" style="width: 365px;">
+    </ul>
+  
+    </center>
+  </nav>
+  <article>
+    <h1>Samsung Galaxy S20+ Ultra</h1>
+    <style>
+      p {
+        border: 2px solid darkblue;
+      }
+      </style>
+   <p> &nbsp;6,9 inch super-amoled-scherm met haarscherpe QHD-resolutie</p>
+   <p> &nbsp;4 camera’s achterop, waaronder een 108 megapixel-camera en periscopische zoomlens</p>
+   <p> &nbsp;Exynos 990-chipset met acht cores, maximaal 16GB werkgeheugen</p>
+   <p> &nbsp;5000 mAh-batterij die razendsnel via usb-c oplaadt</p>
+   <p> &nbsp;128GB of 512GB aan uitbreidbare opslagruimte</p>
+   <p> &nbsp;Draait op Android 10, krijgt updates naar Android 11 en Android 12</p>
+   <p> &nbsp;Vingerafdrukscanner in het display</p>
+
+   <div class="dropdown">
+    <button class="dropbtn">Sorteren op</button>
+    <div class="dropdown-content">
+      <font size=4>
+    <a href="#">Beste deals</a>
+    <a href="#">Meest bekeken</a>
+    <a href="#">Nieuwste smartphones</a>
+    </font>
+    </div>
+
+  </article>
+</section>
+<footer>
+  <p>Copyright © 2020</p>
+</footer>
+
+</body>
+</html>
+
